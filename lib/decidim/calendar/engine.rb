@@ -25,7 +25,7 @@ module Decidim
         Decidim.menu :menu do |menu|
           menu.item I18n.t("menu.calendar", scope: "decidim.calendar"),
                     decidim_calendar.calendar_index_path,
-                    position: 6.0,
+                    position: 2.9,
                     active: :inclusive
         end
       end
